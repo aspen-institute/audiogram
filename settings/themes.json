@@ -15,13 +15,34 @@
     "captionLeft": 200,
     "captionRight": 1080
   },
+  "Aspen Default Logo": {
+    "backgroundImage" : "AI_logo_audiogram.png",
+    "foregroundColor" : "#ffffff",
+    "captionFont" : "52px 'PMNCaeciliaW01-55Roman'",
+    "captionAlign": "right",
+    "captionTop": 40,
+    "captionRight": 1220,
+    "captionLeft": 640,
+    "waveBottom": 660,
+    "waveTop": 320
+  },
+  "Aspen Leaf": {
+      "backgroundImage" : "AspenLeaf_audiogram.png",
+      "waveColor": "#004f81",
+      "pattern" : "bars",
+      "width": 640,
+      "height": 640,
+      "waveBottom": 620,
+      "waveTop": 340,
+      "captionTop": 150,
+      "captionLeft": 20,
+      "captionRight": 620,
+      "captionFont" : "48px 'PMNCaeciliaW01-55Roman'",
+      "captionAlign" : "left"
+  },
   "Basic": {
     "backgroundColor": "#eee",
     "foregroundColor": "#de1e3d"
-  },
-  "Neon": {
-    "backgroundColor": "#556270",
-    "foregroundColor": "#c7f464"
   },
   "Three colors": {
     "backgroundColor": "#eee",
@@ -42,24 +63,10 @@
     "pattern": "bars",
     "foregroundColor": "#d84a4a"
   },
-  "Rounded bars with bottom left text": {
-    "pattern": "roundBars",
-    "foregroundColor": "#d84a4a",
-    "captionAlign": "left",
-    "captionLeft": 60,
-    "captionRight": 640,
-    "captionBottom": 660,
-    "captionTop": null
-  },
   "Line": {
     "backgroundColor": "#edc951",
     "foregroundColor": "#00a0b0",
     "pattern": "line"
-  },
-  "Curve": {
-    "backgroundColor": "#00a0b0",
-    "foregroundColor": "#edc951",
-    "pattern": "curve"
   },
   "Bricks": {
     "backgroundColor": "#8771aa",
@@ -89,17 +96,5 @@
     "backgroundColor": "#ecd078",
     "foregroundColor": "#c02942",
     "pattern": "pixel"
-  },
-  "Square with background image": {
-    "width": 640,
-    "height": 640,
-    "samplesPerFrame": 64,
-    "waveTop": 20,
-    "waveBottom": 300,
-    "captionTop": 340,
-    "captionLeft": 20,
-    "captionRight": 620,
-    "foregroundColor": "#0eb8ba",
-    "backgroundImage": "nyc.png"
   }
 }
