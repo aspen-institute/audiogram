@@ -26,7 +26,7 @@
     "waveBottom": 660,
     "waveTop": 320
   },
-  "Aspen Leaf": {
+  "Aspen Leaf Blue on White": {
       "backgroundImage" : "AspenLeaf_audiogram.png",
       "waveColor": "#004f81",
       "pattern" : "bars",
@@ -39,6 +39,51 @@
       "captionRight": 620,
       "captionFont" : "48px 'PMNCaeciliaW01-55Roman'",
       "captionAlign" : "left"
+  },
+  "AITG Square" : {
+    "backgroundImage" : "AITG_audiogram_v2.png",
+    "pattern" : "bars",
+    "waveColor" : "#932091",
+    "width" : 640,
+    "height" : 640,
+    "waveBottom": 600,
+    "waveTop": 320,
+    "captionFont" : "bold 48px 'Lato'",
+    "captionTop": 50,
+    "captionLeft": 100,
+    "captionRight": 640,
+    "captionAlign" : "right",
+    "foregroundColor" : "#ed2d8c"
+  },
+  "The Bridge A" : {
+    "backgroundImage" : "Bridge_audiogram_empty.png",
+    "pattern" : "bars",
+    "waveColor" : "#F8DB3A",
+    "width" : 640,
+    "height" : 640,
+    "waveBottom": 350,
+    "waveTop": 150,
+    "captionFont" : "48px 'Lato'",
+    "captionTop": 50,
+    "captionLeft": 100,
+    "captionRight": 640,
+    "captionAlign" : "right",
+    "foregroundColor" : "#45b299"
+  },
+  "The Bridge B" : {
+    "backgroundImage" : "Bridge_audiogram_v3.png",
+    "pattern" : "bars",
+    "waveColor" : "#F8DB3A",
+    "width" : 640,
+    "height" : 640,
+    "waveBottom": 520,
+    "waveTop": 300,
+    "captionFont" : "42px 'Lato'",
+    "captionTop": 500,
+    "captionLeft": 20,
+    "captionRight": 620,
+    "captionAlign" : "right",
+    "foregroundColor" : "#45b299"
   },
   "Basic": {
     "backgroundColor": "#eee",
@@ -72,29 +117,5 @@
     "backgroundColor": "#8771aa",
     "foregroundColor": "#fff",
     "pattern": "bricks"
-  },
-  "Equalizer on the bottom": {
-    "backgroundColor": "#222",
-    "foregroundColor": "#fff",
-    "pattern": "equalizer",
-    "captionTop": 40,
-    "captionBottom": 380,
-    "waveTop": 420,
-    "waveBottom": 720
-  },
-  "Bold italic orange": {
-    "captionAlign": "right",
-    "captionTop": null,
-    "captionBottom": 660,
-    "captionRight": 1220,
-    "captionLeft": 640,
-    "backgroundColor": "#fd5a1e",
-    "waveColor": "#fff",
-    "captionFont": "bold italic 52px 'Source Sans Pro'"
-  },
-  "Pixelated": {
-    "backgroundColor": "#ecd078",
-    "foregroundColor": "#c02942",
-    "pattern": "pixel"
   }
 }
