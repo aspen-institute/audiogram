@@ -4,8 +4,9 @@
   "description": "Turn audio into a shareable video.",
   "main": "index.js",
   "scripts": {
-    "start": "npm run postinstall && bin/server",
+    "start": "npm run preinstall && postinstall && bin/server",
     "worker": "bin/worker",
+    "preinstall": "sudo yum install cairo cairo-devel cairomm-devel libjpeg-turbo-devel pango pango-devel pangomm pangomm-devel giflib-devel",
     "postinstall": "mkdir -p editor/js && browserify client/index.js > editor/js/bundle.js",
     "rebuild": "npm run postinstall",
     "watch": "mkdir -p editor/js && watchify client/index.js -o editor/js/bundle.js",
@@ -25,7 +26,7 @@
   "dependencies": {
     "aws-sdk": "^2.2.39",
     "browserify": "^13.0.0",
-    "canvas": "git+https://github.com/chearon/node-canvas.git#12971f64a66b",
+    "canvas": "git+https://github.com/Automattic/node-canvas.git",
     "compression": "^1.6.1",
     "d3": "^4.1.1",
     "dotenv": "^2.0.0",
