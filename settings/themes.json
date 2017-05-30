@@ -40,6 +40,14 @@
       "captionFont" : "48px 'PMNCaeciliaW01-55Roman'",
       "captionAlign" : "left"
   },
+  "AITG Wide" : {
+    "backgroundImage" : "AITG_wide.png",
+    "waveColor" : "#932091",
+    "pattern" : "bricks",
+    "captionFont" : "bold 48px 'Lato'",
+    "waveBottom": 720,
+    "waveTop": 420
+  },
   "AITG Square" : {
     "backgroundImage" : "AITG_audiogram_v2.png",
     "pattern" : "bars",
@@ -93,16 +101,6 @@
     "backgroundColor": "#eee",
     "captionColor": "#515151",
     "waveColor": "#00b4ff"
-  },
-  "Background image with top right text": {
-    "captionAlign": "right",
-    "captionTop": 60,
-    "captionRight": 1220,
-    "captionLeft": 640,
-    "backgroundImage": "subway.jpg",
-    "foregroundColor": "#fc0",
-    "waveBottom": 660,
-    "waveTop": 320
   },
   "Bars": {
     "pattern": "bars",
