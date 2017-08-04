@@ -16,7 +16,7 @@
     "captionRight": 1080
   },
   "AITG Wide" : {
-    "backgroundImage" : "AITG-audiogram.png",
+    "backgroundImage" : "AITG-audiogram.jpg",
     "waveColor" : "#932091",
     "pattern" : "bricks",
     "captionFont" : "bold 48px 'Lato'",
