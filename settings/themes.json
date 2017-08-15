@@ -16,7 +16,7 @@
     "captionRight": 1080
   },
   "AITG Wide" : {
-    "backgroundImage" : "AITG-revB.png",
+    "backgroundImage" : "AITG_revB.png",
     "waveColor" : "#932091",
     "pattern" : "bricks",
     "captionFont" : "42px 'Lato'",
