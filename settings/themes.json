@@ -21,8 +21,9 @@
     "pattern" : "bricks",
     "captionFont" : "42px 'Lato'",
     "captionColor" : "white",
+    "captionTop" : 280,
     "waveBottom": 720,
-    "waveTop": 420
+    "waveTop": 400
   },
   "AIF Purple" : {
         "backgroundImage": "aif_purple.png",
