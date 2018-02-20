@@ -64,6 +64,19 @@
         "captionTop" : 250,
         "captionAlign" : "left"
   },
+  "Aspen Insight" : {
+        "backgroundImage": "Audiogram_PeggyClarkonAspenInsight.png",
+        "pattern" : "bricks",
+        "waveColor" : "#fcb428",
+        "captionColor" : "#fcb428",
+        "captionFont" : "42px 'Avenir Next Cyr W00 Regular'",
+        "waveBottom": 720,
+        "waveTop": 400,
+        "captionLeft": 270,
+        "captionRight": 1080,
+        "captionTop" : 250,
+        "captionAlign" : "left"
+  },
   "Basic": {
     "backgroundColor": "#eee",
     "foregroundColor": "#de1e3d"
